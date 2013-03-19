@@ -1,0 +1,22 @@
+{
+  "name": "vfs",
+  "version": "0.1.0",
+  "description": "An abstraction layer to read (and optionally write) objects from (or to) an assortment of locations.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Schoonology/node-vfs.git"
+  },
+  "author": "Michael Schoonmaker <michael.r.schoonmaker@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.5.0",
+    "chai": "~1.2.0"
+  }
+}
